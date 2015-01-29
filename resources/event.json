@@ -1,0 +1,56 @@
+{	"ID":"http:\/\/www.tempuri.org\/test#Hola Marco 1",
+	"type":"http://saw.habitat.di.unisa.it/events/events.owl#SituationCaughtEvent",
+	"situation":{
+		
+		"type":"http:\/\/saw.habitat.di.unisa.it\/fsto.owl#AntiCollision",
+		
+		"ID":"http:\/\/www.tempuri.org\/test#situation1",
+		
+		"refersToSituationModel":"http:\/\/www.tempuri.org\/test#SituationModel1",
+		
+		"hasPolarity":0.667,
+		
+		"begins":"2014-10-02T17:17:22.012+02:00",
+	
+		"observedAt": {"type":"Polygon","coordinates":[[[40.6660,14.7394],[40.6662,14.7419],[40.6656,14.7434],[40.6641,14.7438],[40.6635,14.7422],[40
+		6634,14.7407],[40.6647,14.7400]]]},
+	
+		"hasSupport":[
+			{	"type":"http:\/\/saw.habitat.di.unisa.it\/fsto.owl#Situation",
+				"ID":"http:\/\/www.tempuri.org\/test#situation2",
+				"refersToSituationModel":"http:\/\/www.tempuri.org\/test#SituationModel2",
+				"hasPolarity":0.667,
+				"begins":"2014-10-02T17:17:22.022+02:00",
+				"observedAt": { "type":"Polygon", "coordinates":[[[7,7],[6,9],[6,11],[7,12],[9,11],[11,12],[13,11],[13,9],[11,7],[7,7]]] },
+				"hasSupport":[
+					{ 	"type":"http:\/\/saw.habitat.di.unisa.it\/fsto.owl#Infon",
+						"ID":"http:\/\/www.tempuri.org\/test#infon2",
+						"inXSDDateTime":"2014-10-02T17:17:22.020+02:00",
+						"involvesRelation":"http:\/\/www.tempuri.org\/test#relation2",
+						"hasPolarity":0.75,
+						"involvesFocalIndividuals": [
+							{"ID":"http:\/\/www.tempuri.org\/test#Focal1"},
+							{"ID":"http:\/\/www.tempuri.org\/test#Focal3"}]},
+							
+					{	"type":"http:\/\/saw.habitat.di.unisa.it\/fsto.owl#Infon",
+						"ID":"http:\/\/www.tempuri.org\/test#infon3",
+					
+						"inXSDDateTime":"2014-10-02T17:17:22.021+02:00",
+						
+						"involvesRelation":"http:\/\/www.tempuri.org\/test#relation3",
+					
+						"hasPolarity":0.75,
+						
+						"involvesFocalIndividuals":[
+							{	
+								"ID":"http:\/\/www.tempuri.org\/test#Focal2"},
+							{"ID":"http:\/\/www.tempuri.org\/test#Focal3"}] }]
+							},
+			{	"type":"http:\/\/saw.habitat.di.unisa.it\/fsto.owl#Infon",
+				"ID":"http:\/\/www.tempuri.org\/test#infon1",
+				"involvesFocalIndividuals":
+				[{"ID":"http:\/\/www.tempuri.org\/test#Focal1"},
+				{"ID":"http:\/\/www.tempuri.org\/test#Focal2"}],
+				"hasPolarity":0.75,
+				"inXSDDateTime":"2014-10-02T17:17:22.018+02:00",
+				"involvesRelation":"http:\/\/www.tempuri.org\/test#relation1" } ] }}
